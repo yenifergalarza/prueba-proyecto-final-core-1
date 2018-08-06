@@ -1,7 +1,11 @@
 body{
     margin:0;
     font-family:sans-serif;
-    background:#2a4862;
+    background-image: url(imagenes/comunalRecepción.jpg);
+ background-size: 100vw 100vh;
+ background-attachment: fixed;
+ margin:0;
+
 
 }
 
@@ -14,12 +18,11 @@ h1{
     width:98%;
     max-width: 500px;
     margin: auto;
-    background: #fff;
+    background: rgba(0,0,0,0.7);
     border-radius: 7px;
 }
 
 .form-titulo {
-    background: deepskyblue;
     color:#fff;
     padding: 20px;
     text-align: center;
@@ -27,7 +30,7 @@ h1{
     font-size:30px;
     border-top-left-radius:7px ;
     border-top-right-radius: 7px;
-    border-bottom: 5px solid crimson;
+    border-bottom: 5px solid rgb(232, 195, 13);
 }
 
 .contenedor-inputs{
@@ -53,7 +56,7 @@ input{
 }
 
 .btn-enviar{
-    background: crimson ;
+    background:linear-gradient(  to right ,#e37f14,#fea900,#fce806) ;
   color:#fff;
   padding: 10px 40px;
   margin: auto;
